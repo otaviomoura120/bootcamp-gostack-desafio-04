@@ -1,0 +1,94 @@
+body{
+    /* color: #FFF; */
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #4a90e2;
+    color: #fff;
+    height: 70px;
+    margin-top: -22px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.header > .title {
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    background-color: #fff;
+    justify-content: center;
+    width: 50%;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+
+}
+
+.post .userDetails {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.post .userDetails .date-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.post .userDetails .userName {
+    color: #5c5b5b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+
+.post .userDetails .postDate {
+    font-size: 10px;
+    color: grey
+}
+
+.post .userDetails .userPhoto{
+    max-width: 40px;
+    border-radius: 90px;
+    margin-right: 10px;
+}
+
+.postContent {
+    font-size: 13px;
+}
+
+.postComment{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.postComment .userPhoto{
+    max-width: 40px;
+    border-radius: 90px;
+    margin-right: 10px;
+}
+
+.postComment .userComment{
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.postComment .userComment .userName{
+    font-weight: 600;
+}
+
